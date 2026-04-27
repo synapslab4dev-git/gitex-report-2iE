@@ -78,7 +78,7 @@ export default function IncubateurSection() {
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
       >
-        Projets de la délégation de 2iE (Boursiers SEP - Mastercard Foundation)
+        Projets de la délégation de 2iE (Boursiers SEF - Mastercard Foundation)
       </motion.h3>
 
       <motion.div

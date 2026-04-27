@@ -25,12 +25,17 @@ export default function ProjectModal({ project, onClose }) {
           <X size={16} />
         </button>
 
-        {project.photos?.[0] && (
-          <img
-            className="modal-image"
-            src={project.photos[0]}
-            alt={project.name}
-          />
+        {project.photos && project.photos.length > 0 && (
+          <div className="modal-image-container">
+            {project.photos.map((photo, idx) => (
+              <img
+                key={idx}
+                className="modal-image"
+                src={photo}
+                alt={`${project.name} photo ${idx + 1}`}
+              />
+            ))}
+          </div>
         )}
 
         <div className="modal-body">

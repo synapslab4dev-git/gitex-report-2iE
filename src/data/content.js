@@ -50,7 +50,7 @@ export const PROJECTS = [
       sa couverture à plusieurs communes du Burkina Faso et à développer des partenariats avec les bailleurs 
       de fonds internationaux.`,
     tags: ["IoT", "GreenTech", "Eau potable", "Burkina Faso"],
-    photos: ["/photos/jour2/jour2-1.jpg"]
+    photos: ["/photos/profiles/François KINDA (Ges'Eau).jpg"]
   },
   {
     id: "serrasafe",
@@ -73,7 +73,10 @@ export const PROJECTS = [
       L'objectif est d'augmenter les rendements agricoles de 30 à 50% tout en réduisant la consommation 
       d'eau et d'énergie, contribuant ainsi à la sécurité alimentaire du continent.`,
     tags: ["AgriTech", "IA", "Serres connectées", "Sécurité alimentaire"],
-    photos: ["/photos/jour3/jour3-37.jpg"]
+    photos: [
+      "/photos/profiles/Dany Anderson (Serrasafe).jpg",
+      "/photos/profiles/Hyacinth KOSSIVI (Serrasafe).jpg"
+    ]
   },
   {
     id: "droneforwater",
@@ -126,10 +129,10 @@ export const DAYS = [
         time: "Soirée",
         title: "Visite de repérage",
         description: "Première visite de repérage sur les lieux du GITEX Africa afin de prendre nos marques, d'identifier les différents pavillons et de préparer au mieux les journées intenses à venir.",
-        image: "/photos/jour1/jour1-arrival.jpg"
+        image: "/photos/jour1/gitex-exterior.jpg"
       }
     ],
-    galleryPhotos: ["/photos/jour1/jour1-arrival.jpg"]
+    galleryPhotos: ["/photos/jour1/gitex-exterior.jpg"]
   },
   {
     id: "jour2",
