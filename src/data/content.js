@@ -111,24 +111,24 @@ export const DAYS = [
     title: "Logistique & Repérage",
     headerImage: "/photos/jour1/jour1-arrival.jpg",
     quote: {
-      text: "L'ambiance au GITEX Africa est électrisante. C'est une immense fierté de porter les couleurs du Burkina Faso et de montrer que notre expertise panafricaine peut apporter des solutions concrètes aux défis du continent.",
+      text: "L'immersion au GITEX confirme une chose : la véritable innovation ne réside pas dans l'obstination à tout fabriquer soi-même, mais dans notre agilité à intégrer des technologies existantes pour résoudre un vrai problème, comme celui des pertes en eau.",
       author: "François KINDA, Porteur du projet Ges'Eau"
     },
     events: [
       {
         time: "Matinée",
         title: "Arrivée de la délégation à Marrakech",
-        description: "La délégation de l'Incubateur 2iE est bien arrivée à Marrakech. Cette matinée a été entièrement consacrée à la logistique d'arrivée et à l'installation dans nos quartiers.",
+        description: "La délégation de l'Incubateur 2iE est bien arrivée à Marrakech. Cette première demi-journée a été entièrement consacrée à la logistique d'arrivée et à l'installation.",
       },
       {
         time: "Après-midi",
         title: "Déplacements et immersion",
-        description: "Trajets en taxi à travers la ville de Marrakech pour se diriger vers le site de l'événement. L'occasion de découvrir l'effervescence de la ville hôte.",
+        description: "Trajets en taxi à travers la ville pour se diriger vers le site de l'événement. L'occasion de découvrir l'effervescence de la ville hôte avant le début des activités.",
       },
       {
         time: "Soirée",
         title: "Visite de repérage",
-        description: "Première visite de repérage sur les lieux du GITEX Africa afin de prendre nos marques, d'identifier les différents pavillons et de préparer au mieux les journées intenses à venir.",
+        description: "Première visite exploratoire sur les lieux du GITEX Africa afin de prendre nos marques, d'identifier les différents pavillons et de préparer au mieux les journées intenses à venir.",
         image: "/photos/jour1/gitex-exterior.jpg"
       }
     ],
@@ -138,24 +138,30 @@ export const DAYS = [
     id: "jour2",
     number: 2,
     date: "Mercredi 08 Avril 2026",
-    title: "Pitchs & Networking",
+    title: "Veille, Rencontres & Stratégie",
     headerImage: "/photos/jour2/jour2-7.jpg",
     quote: {
-      text: "Les rencontres technologiques d'aujourd'hui confirment le potentiel de l'intelligence artificielle pour notre agriculture. Voir des investisseurs séduits par notre approche démontre que nous sommes sur la bonne voie.",
+      text: "Au-delà des startups et des géants de la tech, c'est surtout l'esprit entrepreneurial — ce désir de toujours vouloir repousser les limites — qui m'a le plus marqué durant cet événement.",
       author: "Dany Anderson GUIMEFACK, Co-porteur du projet SerraSafe"
     },
     events: [
       {
         time: "Matinée",
-        title: "Visite du stand Tesla",
-        description: "Cette journée fut très animée. Dès notre arrivée, nous nous sommes posés au stand de l'entreprise Tesla, leader mondial de la robotique et de l'intelligence artificielle. Nous avons pu y découvrir la Model Y, le Cybertruck, et surtout leur robot humanoïde Optimus.",
+        title: "Veille Concurrentielle & Technologique",
+        description: "La journée a débuté par une exploration ciblée des stands. Des rencontres clés ont eu lieu avec des acteurs de l'Agritech (PCS Agri, Agrogo) pour le projet SerraSafe, des spécialistes du traitement de l'eau pour Drone For Water, ainsi que des échanges constructifs avec des startups évoluant sur un segment similaire (WaterSec) pour Ges’Eau.",
         image: "/photos/jour2/jour2-1.jpg"
       },
       {
         time: "Après-midi",
-        title: "Échanges avec la startup Agrogo",
-        description: "Visite du stand de la startup marocaine Agrogo, spécialisée dans l'irrigation assistée par intelligence artificielle. Des discussions approfondies ont permis à nos équipes d'échanger mutuellement leurs expériences, leurs défis et leur savoir-faire.",
+        title: "Participation aux Conférences",
+        description: "Participation à des sessions stratégiques, notamment une table ronde sur la \"fuite des cerveaux\", réunissant des personnalités influentes de l'écosystème tech marocain comme M. Jalal Charaf (École Centrale Casablanca), ainsi qu'un panel sur l'évolution des opérateurs télécoms.",
         image: "/photos/jour2/jour2-4.jpg"
+      },
+      {
+        time: "Soirée",
+        title: "Réseautage et Partenariats",
+        description: "La journée s'est achevée par des discussions approfondies avec des partenaires potentiels, dont des fournisseurs de matériel IoT industriel (Ozon Connect) et des experts de l'IA comme Aristide Bandaogo (Go AI Corp), consolidant des pistes de collaboration concrètes.",
+        image: "/photos/jour2/jour2-8.jpg"
       }
     ],
     galleryPhotos: [
@@ -171,24 +177,30 @@ export const DAYS = [
     id: "jour3",
     number: 3,
     date: "Jeudi 09 Avril 2026",
-    title: "Bilan & Perspectives",
+    title: "Panels de Haut Niveau & Finale du Challenge",
     headerImage: "/photos/jour3/jour3-20.jpg",
     quote: {
-      text: "L'utilisation des drones pour la gestion de l'eau suscite un vif intérêt. Ce salon nous a ouvert un réseau incroyable et tracé des perspectives d'avenir très prometteuses pour notre solution.",
+      text: "Les projets liés à l'environnement et à l'eau suscitent un intérêt croissant à l'échelle africaine. Ce salon confirme que nos solutions sont non seulement pertinentes, mais aussi attendues par le marché.",
       author: "DAO Zégué Guy Télesphore, Porteur du projet Drone for Water"
     },
     events: [
       {
         time: "Matinée",
-        title: "Conférence LLM & Langues Africaines",
-        description: "Participation à la table ronde d'experts intitulée 'Finally ! AI speaks my language : LLM and African languages'. Une conférence marquante sur l'impact de l'IA dans la préservation et l'intégration des langues africaines.",
+        title: "IA, Souveraineté & Données",
+        description: "La matinée a été marquée par la participation à des panels de très haut niveau, notamment celui de Devoteam sur l'impact de l'IA en entreprise, et une conférence sur la protection des données en Afrique, rappelant les enjeux de conformité pour nos solutions.",
         image: "/photos/jour3/jour3-5.jpg"
       },
       {
         time: "Après-midi",
-        title: "Interview avec Cameroun Insider",
-        description: "Entretien accordé par la délégation au journaliste Ayang McDonald pour le quotidien Cameroun Insider. L'occasion de revenir sur le parcours des porteurs de projets, depuis leur formation au 2iE jusqu'au développement de leurs ambitions entrepreneuriales.",
+        title: "Pitchs & Inspiration",
+        description: "Immersion au cœur de l'écosystème en assistant à la grande finale du Supernova Challenge. Les pitchs des startups finalistes, dont une sur la détection de fuites d'eau, ont validé la pertinence de nos propres projets. L'interview inspirante de l'entrepreneur et ex-footballeur Mamadou Sakho a clôturé cette phase.",
         image: "/photos/jour3/jour3-10.jpg"
+      },
+      {
+        time: "Soirée",
+        title: "Synthèse & Bilan",
+        description: "Derniers échanges informels et consolidation des notes et contacts. Cette soirée a été dédiée à la synthèse des apprentissages et à la préparation du bilan de la mission.",
+        image: "/photos/jour3/jour3-30.jpg"
       }
     ],
     galleryPhotos: [
@@ -204,42 +216,24 @@ export const DAYS = [
 
 export const GLOBAL_REPORT = {
   title: "Rapport Global de Mission",
-  intro: `La participation de l'Incubateur 2iE au GITEX Africa Morocco 2026 a été une réussite 
-    sur plusieurs plans. Cette mission de trois jours a permis à la délégation burkinabè de se 
-    positionner sur la scène internationale de l'innovation technologique et de renforcer la 
-    visibilité des projets incubés.`,
+  intro: `La participation de la délégation de l'Incubateur 2iE au GITEX Africa 2026 a été une expérience d'une richesse exceptionnelle. Plus qu'un simple salon technologique, cette mission a servi de puissant catalyseur, permettant de confronter les ambitions de nos projets à la réalité du marché continental et mondial.`,
   highlights: [
-    { value: "25+", label: "Contacts stratégiques" },
-    { value: "3", label: "Projets présentés" },
-    { value: "8", label: "Pistes de partenariat" },
+    { value: "25+", label: "Contacts Stratégiques Établis" },
+    { value: "3", label: "Projets Innovants Présentés" },
+    { value: "8", label: "Pistes de Partenariat Qualifiées" },
   ],
   sections: [
     {
-      title: "Objectifs de la mission",
-      content: `La mission au GITEX Africa avait pour principaux objectifs de présenter les innovations 
-        développées au sein de l'Incubateur 2iE, d'identifier des partenaires techniques et financiers, 
-        et de positionner l'Institut 2iE comme un acteur clé de l'innovation technologique en Afrique 
-        de l'Ouest. Les trois projets sélectionnés — Ges'Eau, SerraSafe et Drone for Water — représentent 
-        des réponses concrètes aux défis majeurs du continent en matière d'eau, d'agriculture et 
-        d'environnement.`
+      title: "Objectifs de la Mission",
+      content: `La mission visait avant tout à immerger les porteurs de projets au cœur de l'écosystème pour leur permettre de :\n\n- Effectuer une veille technologique et concurrentielle de pointe.\n- Identifier et rencontrer des partenaires potentiels (investisseurs, fournisseurs, experts).\n- Renforcer la vision stratégique de chaque projet en le confrontant aux standards internationaux.\n- Capitaliser sur les apprentissages pour accélérer le développement des startups.`
     },
     {
-      title: "Résultats obtenus",
-      content: `Au terme des trois jours de participation, la délégation a pu établir plus de 25 contacts 
-        stratégiques avec des investisseurs, des accélérateurs et des institutions. Huit pistes de 
-        partenariat concrètes ont été identifiées, dont des opportunités de co-développement avec des 
-        startups marocaines et des programmes d'accompagnement d'organismes internationaux. Les retours 
-        des visiteurs et du jury sur les trois projets ont été très positifs, confirmant la pertinence 
-        et le potentiel de marché des solutions proposées.`
+      title: "Résultats et Opportunités",
+      content: `Au terme des trois jours, la délégation a non seulement atteint ses objectifs mais les a dépassés. Plus de 25 contacts stratégiques ont été établis et huit pistes de partenariat concrètes ont été identifiées, incluant des opportunités de co-développement, d'approvisionnement matériel et des programmes d'accompagnement. Les retours sur les trois projets ont confirmé la pertinence de leurs propositions de valeur et leur fort potentiel de marché.`
     },
     {
-      title: "Recommandations & perspectives",
-      content: `Fort de cette expérience, l'Incubateur 2iE recommande de systématiser la participation 
-        aux salons technologiques internationaux pour accroître la visibilité des projets. Un suivi rigoureux 
-        des contacts établis et des pistes de partenariat est essentiel pour convertir ces opportunités. 
-        Les prochaines étapes incluent l'organisation de rencontres de suivi avec les partenaires identifiés, 
-        le développement des prototypes vers des versions commercialisables, et la préparation d'une 
-        candidature pour la prochaine édition du GITEX Africa.`
+      title: "Perspectives d'Avenir",
+      content: `Fort de cette expérience, l'Incubateur 2iE et ses porteurs de projets s'engagent dans une phase active de conversion de ces opportunités. Les prochaines étapes incluent un suivi rigoureux des contacts établis, la consolidation des feuilles de route techniques et commerciales, et la préparation d'une présence encore plus forte lors des futurs événements technologiques panafricains.`
     }
   ],
   pdfFilename: "Rapport Officiel de mission GITEX Africa au Maroc 2026 Incubateur 2iE-8 DEB.pdf"
