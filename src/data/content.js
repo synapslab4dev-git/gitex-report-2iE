@@ -56,7 +56,7 @@ export const PROJECTS = [
     id: "serrasafe",
     name: "SerraSafe",
     tagline: "L'agriculture protégée, connectée",
-    porteurs: "Dany Anderson GUIMEFACK & Yacinthe KOSSIVI",
+    porteurs: "Dany Anderson GUIMEFACK & Hyacinthe KOSSIVI",
     role: "Étudiants en Informatique (IA & Dev Fullstack) – 2iE",
     color: "green",
     icon: "🌿",
@@ -146,27 +146,16 @@ export const DAYS = [
     },
     events: [
       {
-        time: "9h00 – 11h00",
-        title: "Sessions de pitch",
-        description: "Présentation des trois projets devant un jury d'investisseurs et d'experts internationaux. Chaque porteur a disposé de 5 minutes pour pitcher son innovation suivies de 3 minutes de Q&A.",
-        image: "/photos/jour2/jour2-2.jpg"
+        time: "Matinée",
+        title: "Visite du stand Tesla",
+        description: "Cette journée fut très animée. Dès notre arrivée, nous nous sommes posés au stand de l'entreprise Tesla, leader mondial de la robotique et de l'intelligence artificielle. Nous avons pu y découvrir la Model Y, le Cybertruck, et surtout leur robot humanoïde Optimus.",
+        image: "/photos/jour2/jour2-1.jpg"
       },
       {
-        time: "11h30 – 13h00",
-        title: "Networking & rencontres B2B",
-        description: "Sessions de networking intensives avec des accélérateurs, des fonds d'investissement et des entreprises tech intéressées par les solutions eau, agriculture et environnement.",
-        image: "/photos/jour2/jour2-7.jpg"
-      },
-      {
-        time: "14h00 – 16h00",
-        title: "Démonstrations sur le stand",
-        description: "Démonstrations live des prototypes et plateformes devant les visiteurs du salon. Les visiteurs ont pu tester les interfaces de Ges'Eau, découvrir les capteurs SerraSafe et voir les cartes générées par Drone for Water.",
-        image: "/photos/jour2/jour2-12.jpg"
-      },
-      {
-        time: "16h30 – 18h00",
-        title: "Conférences thématiques",
-        description: "Participation aux panels sur les thématiques GreenTech et AgriTech en Afrique. Discussion sur les défis et opportunités de la transition numérique dans les secteurs de l'eau et de l'agriculture.",
+        time: "Après-midi",
+        title: "Échanges avec la startup Agrogo",
+        description: "Visite du stand de la startup marocaine Agrogo, spécialisée dans l'irrigation assistée par intelligence artificielle. Des discussions approfondies ont permis à nos équipes d'échanger mutuellement leurs expériences, leurs défis et leur savoir-faire.",
+        image: "/photos/jour2/jour2-4.jpg"
       }
     ],
     galleryPhotos: [
@@ -190,28 +179,16 @@ export const DAYS = [
     },
     events: [
       {
-        time: "9h00 – 12h00",
-        title: "Dernières démonstrations",
-        description: "Dernière journée de présentation au public. Accueil de nouvelles délégations et échanges approfondis avec des partenaires potentiels identifiés les jours précédents.",
+        time: "Matinée",
+        title: "Conférence LLM & Langues Africaines",
+        description: "Participation à la table ronde d'experts intitulée 'Finally ! AI speaks my language : LLM and African languages'. Une conférence marquante sur l'impact de l'IA dans la préservation et l'intégration des langues africaines.",
         image: "/photos/jour3/jour3-5.jpg"
       },
       {
-        time: "12h00 – 14h00",
-        title: "Rencontres institutionnelles",
-        description: "Rencontres avec des représentants d'institutions panafricaines et d'organismes de coopération internationale intéressés par le modèle d'incubation de 2iE.",
+        time: "Après-midi",
+        title: "Interview avec Cameroun Insider",
+        description: "Entretien accordé par la délégation au journaliste Ayang McDonald pour le quotidien Cameroun Insider. L'occasion de revenir sur le parcours des porteurs de projets, depuis leur formation au 2iE jusqu'au développement de leurs ambitions entrepreneuriales.",
         image: "/photos/jour3/jour3-10.jpg"
-      },
-      {
-        time: "14h00 – 16h00",
-        title: "Visites d'autres stands innovants",
-        description: "Exploration du salon pour découvrir les innovations présentées par d'autres startups et institutions africaines. Benchmarking et identification de synergies potentielles.",
-        image: "/photos/jour3/jour3-20.jpg"
-      },
-      {
-        time: "16h00 – 18h00",
-        title: "Clôture et bilan de la mission",
-        description: "Réunion de bilan de la délégation. Synthèse des contacts établis, des retours reçus et des opportunités identifiées. Préparation du rapport de mission.",
-        image: "/photos/jour3/jour3-30.jpg"
       }
     ],
     galleryPhotos: [
